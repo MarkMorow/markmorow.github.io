@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://markmorow.github.io/sitemap.xml
+Sitemap: https://wwww.markmorow.com/sitemap.xml

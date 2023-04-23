@@ -1,5 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://markmorow.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://markmorow.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-14T20:43:14+00:00</updated><id>https://markmorow.github.io/feed.xml</id><title type="html">blank</title><subtitle>Mark Morowczynski&apos;s home page. Occasional blog posts, various presentations, and contact info.
-</subtitle><entry><title type="html">Hello World!</title><link href="https://markmorow.github.io/blog/2023/hello-world/" rel="alternate" type="text/html" title="Hello World!" /><published>2023-04-13T15:59:00+00:00</published><updated>2023-04-13T15:59:00+00:00</updated><id>https://markmorow.github.io/blog/2023/hello-world</id><content type="html" xml:base="https://markmorow.github.io/blog/2023/hello-world/"><![CDATA[<p>It’s a rule all technical blogs start with this post. You can read the home page for a bit more <a href="/">about me</a>, which I’ll keep up to date.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://wwww.markmorow.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://wwww.markmorow.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-23T17:28:01+00:00</updated><id>https://wwww.markmorow.com/feed.xml</id><title type="html">blank</title><subtitle>Mark Morowczynski&apos;s home page. Occasional blog posts, various presentations, and contact info.
+</subtitle><entry><title type="html">Why I’m Learning Objective-C &amp;amp; Other Learning Resources</title><link href="https://wwww.markmorow.com/blog/2023/Why-ObjectiveC/" rel="alternate" type="text/html" title="Why I’m Learning Objective-C &amp;amp; Other Learning Resources" /><published>2023-04-23T14:19:00+00:00</published><updated>2023-04-23T14:19:00+00:00</updated><id>https://wwww.markmorow.com/blog/2023/Why-ObjectiveC</id><content type="html" xml:base="https://wwww.markmorow.com/blog/2023/Why-ObjectiveC/"><![CDATA[<p>‘Why are you learning Objective-C? Everything is moving to Swift.” This is usually the first thing someone will helpfully point out to me. They are not wrong either. If you were getting started in the iOS/iPadOS ecosystem, you would probably want to use Swift.</p>
+
+<p>When I look at Swift code somewhere, I have a rough idea of what it’s trying to do. However, when I look at the Objective-C code, it looks like the cat walked across the keyboard when I was getting coffee.</p>
+
+<p>I’m looking to learn it for a few reasons.</p>
+
+<ol>
+  <li>
+    <p>Though Swift is the new and the right direction. There is still ALOT of stuff written in Objective-C, especially malware. To understand what it’s doing, you need to know Objective-C.</p>
+  </li>
+  <li>
+    <p>Trying to learn some of the deeper parts of the system requires you to use a lower-level language like C, C++, or Objective-C. I am writing small sample apps. Reversing them to see what it looks like in various tools like Ghidra, IDA Pro (which I do not have), or Hopper (which I also do not have but isn’t too expensive). Making those mistakes that other vulnerable apps make in my sample apps will help me learn. At least, I think it will.</p>
+  </li>
+</ol>
+
+<p>I can also learn Swift later, it’s not like it’s going away, and you can only pick one. So I will just learn more about it later.</p>
+
+<p>I have a terrible habit of buying books I do not have the time to read, but I do it anyways. This extends to digital, audio, and physical books. This habit includes technical books as well. I plan to use the following books for my deeper understanding of things.</p>
+
+<p><a href="https://www.informit.com/store/objective-c-programming-the-big-nerd-ranch-guide-9780321942067">Objective-C Programming from Big Nerd Ranch</a></p>
+
+<p>This is ten years old at this point, so some of the examples in XCode have been moved or removed, but the fundamentals are still there. You can probably find it used as well cause who would want to learn this today with all that sweet Swift stuff out there. They have a little challenge to do at the end of each chapter. I’ve been doing those as I go and posting my solutions on my <a href="https://github.com/MarkMorow/BigNerdRanchObjectiveC">GitHub Repo</a>. I’m halfway through the book, and it’s been really helpful.</p>
+
+<p><a href="https://www.wiley.com/en-us/The+Mac+Hacker%27s+Handbook-p-9781118080337">The Mac Hackers Handbook</a></p>
+
+<p>Another old one but many of the fundamentals remain true. For example, understanding universal binaries, tracing, and fuzzing will still work today. It might be a different toolset now, but the basics are here. I’ve learned that having a good grasp on those fundamental/basic things makes learning the newer things much easier since they are all built from them.</p>
+
+<p><a href="https://www.wiley.com/en-us/Blue+Fox%3A+Arm+Assembly+Internals+and+Reverse+Engineering-p-9781119746720">ARM Assembly Internals &amp; Reverse Engineering</a></p>
+
+<p>This book just arrived this past week, and I’m very excited to dig into this one. I’ve been waiting for Maria Markstedter (<a href="https://twitter.com/Fox0x01">Twitter</a>, <a href="https://mastodon.social/@Azeria">Mastodon</a>) since she announced it. The last chapter applies the techniques in the book to MacOS malware on ARM. It looks great.</p>
+
+<p>I have a bunch more books sitting on my shelf to dig into, but those will be for another post.</p>
+
+<p>What are some of the technical books you are either working through or most excited to start on? Please post them in the comments. I’m still not sure I set that up correctly.</p>]]></content><author><name></name></author><category term="notes" /><category term="code" /><category term="learning" /><summary type="html"><![CDATA[Don't you know about Swift?]]></summary></entry><entry><title type="html">Hello World!</title><link href="https://wwww.markmorow.com/blog/2023/hello-world/" rel="alternate" type="text/html" title="Hello World!" /><published>2023-04-13T15:59:00+00:00</published><updated>2023-04-13T15:59:00+00:00</updated><id>https://wwww.markmorow.com/blog/2023/hello-world</id><content type="html" xml:base="https://wwww.markmorow.com/blog/2023/hello-world/"><![CDATA[<p>It’s a rule all technical blogs start with this post. You can read the home page for a bit more <a href="/">about me</a>, which I’ll keep up to date.</p>
 
 <p>But just getting this up and running has helped me improve my Git, GitHub, and Markdown skills. You’ll know they’ve really improved when I don’t have to make several other pull requests to fix mistakes here.</p>
 
