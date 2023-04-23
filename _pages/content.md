@@ -49,7 +49,7 @@ Microsoft Ignite: Hybrid identity and access management best practices [video](h
 
 Microsoft Ignite: Azure Active Directory best practices from around the word [video](https://www.youtube.com/watch?v=jLBzAW4r17A).
 
-# Articles
+# Articles & Blogs
 
 ##### 2022
 
@@ -59,6 +59,49 @@ JAMF Blog Guest Post: Best practice when working with Azure AD [article](https:/
 
 ID Pro Vol1 Issue 6: Authentication and Authorization [article](https://bok.idpro.org/article/id/78/).
 
+
+##### 2020
+
+Azure AD Mailbag: Identity Protection [article](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/azure-ad-mailbag-identity-protection/ba-p/1257350).
+
+Azure AD Mailbag: What is identity provisioning and why does it matter? [article](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/azure-ad-mailbag-what-is-identity-provisioning-and-why-does-it/ba-p/1257340).
+##### 2019
+
+Azure AD Mailbag: Tips for Azure AD reportin and monitoring your day-to-day activies [article](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/azure-ad-mailbag-tips-for-azure-ad-reporting-and-monitoring-your/ba-p/566498).
+
+Azure AD Mailbag: MFA Q&A Round 8! [article](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/azure-ad-mailbag-mfa-q-amp-a-round-8/ba-p/390334).
+
+Azure AD Mailbag: Return of the mailbag with Azure AD Logs [article](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/azure-ad-mailbag-return-of-the-mailbag-with-azure-ad-logs/ba-p/358499).
+
+##### 2016
+
+Azure AD Mailbag: Syncing with Azure AD Part 3 [article](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/azuread-mailbag-syncing-with-azure-ad-part-3/ba-p/245110).
+
+Azure AD Mailbag: Hybrid Identity and ADFS Part 2 [article](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/azuread-mailbag-hybrid-identity-and-adfs-part-2/ba-p/245026).
+
+Azure AD Mailbag: Hybrid Identity and ADFS [article](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/azure-ad-mailbag-hybrid-identity-and-adfs/ba-p/244997).
+
+Azure AD Mailbag: PowerShell Tips and Tricks! [article](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/azure-ad-mailbag-powershell-tips-and-tricks/ba-p/244244).
+
+Azure AD Mailbag: MFA Q&A, Round 2! [article](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/azure-ad-mailbag-mfa-q-amp-a-round-2/ba-p/244222).
+
+Azure AD Mailbag: Syncing with Azure AD Part 2 [article](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/azure-ad-mailbag-syncing-with-azure-ad-part-2/ba-p/244219).
+
+Azure AD Mailbag: Q&A on Azure MFA [article](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/azure-ad-mailbag-azure-ad-app-proxy/ba-p/244213).
+
+Azure AD Mailbag: Azure AD App Proxy [article](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/azure-ad-mailbag-azure-ad-app-proxy/ba-p/244213).
+
+Azure AD Mailbag: PowerShell trips and tricks [article](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/azure-ad-mailbag-powershell-tips-and-tricks/ba-p/244211).
+##### 2015
+
+Azure Ad Mailbag: Syncing with Azure AD Connect [article](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/azure-ad-mailbag-syncing-with-azure-ad-connect/ba-p/244202).
+
+Azure AD Mailbag: Self-Service Password Reset [article](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/azuread-mailbag-self-service-password-reset/ba-p/244197).
+
+New Series: The Azure AD Mailbag [article](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/new-series-the-azure-ad-mailbag/ba-p/244169).
+##### 2011 to 2015
+
+When I was a Premier Field Engineer, several of us wrote on the AskPFEPlat blog. This is the tag to the 59 [posts](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/bg-p/CoreInfrastructureandSecurityBlog/label-name/MarkMorow).
 # Books
 
 ##### 2021
