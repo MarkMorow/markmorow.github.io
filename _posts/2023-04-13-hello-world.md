@@ -3,7 +3,7 @@ layout: post
 title: Hello World!
 date: 2023-04-13 11:59:00-0400
 description: Saying hello to everyone out there
-categories: notes
+tag: notes
 giscus_comments: true
 related_posts: false
 ---
