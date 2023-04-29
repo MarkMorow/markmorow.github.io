@@ -28,3 +28,5 @@ I'll be using this site for a few things:
 You can and should read the official blog for [Azure AD posts](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/bg-p/Identity).
 
 Outside the technology space I enjoy reading and watching baseball, hockey and basketball.
+
+Disclaimer: The opinions expressed herein are my own personal opinions and do not represent my employer's view in any way.
