@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Announcement_1 | Mark  Morowczynski</title>
+    <title>Contributing to LOOBins | Mark  Morowczynski</title>
     <meta name="author" content="Mark  Morowczynski">
-    <meta name="description" content="Mark Morowczynski's home page. Occasional blog posts, various presentations, and contact info.
-">
+    <meta name="description" content="Living Off the Orchard, macOS Binaries">
     <meta name="keywords" content="Mark Morowczynski, security, security research, portfolio-website">
 
 
@@ -34,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://wwww.markmorow.com/news/announcement_1/">
+    <link rel="canonical" href="https://wwww.markmorow.com/blog/2023/LOOBins/">
     
     <!-- Dark Mode -->
     
@@ -73,8 +72,8 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/blog/">blog</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
               </li>
 
               <!-- Other pages -->
@@ -113,18 +112,59 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Announcement_1</h1>
-    <p class="post-meta">August 12, 2022</p>
+    <h1 class="post-title">Contributing to LOOBins</h1>
+    <p class="post-meta">May 29, 2023</p>
     <p class="post-tags">
-      <a href="/blog/2022"> <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/tag/research">
+          <i class="fas fa-hashtag fa-sm"></i> research</a>  
+          <a href="/blog/tag/learning">
+          <i class="fas fa-hashtag fa-sm"></i> learning</a>  
+          
 
     </p>
   </header>
 
   <article class="post-content">
-    <p>Defcon 30 BTV Improving security posture of MacOS and Linux with Azure AD <a href="https://www.youtube.com/watch?v=wjRgnCWI4GE" rel="external nofollow noopener" target="_blank">Talk</a>.</p>
+    <p>I came across this open-source project called <a href="https://www.loobins.io/" rel="external nofollow noopener" target="_blank">LOOBins</a> which I thought would be the perfect place to get started in doing some macOS research and provide something of value to the security community.</p>
 
-  </article>
+<p>LOOBins stands for Living Off the Orchard, get it, cause of ‘Apple.’ Like many security tools, we got to have some jokes in there. It’s looking for built-in macOS binaries and how threat actors can use them for malicious purposes. This concept of ‘Living Off The Land’ isn’t new, but seeing something like this for macOS is excellent.</p>
+
+<p>Luckily, I could pick a binary, hdiutil, and contribute to the project <a href="https://www.loobins.io/binaries/hdiutil/" rel="external nofollow noopener" target="_blank">here</a>. This required me to research how this worked, look to see if it had been used before in a malicious way, which it actually had, and then see where this fit in the MITRE Att&amp;ck. This took me a bit longer than I thought it would, and there are probably more scenarios I need to add, but I’m pleased it was accepted.</p>
+
+<p>If you are interested in contributing, several other binaries are looking for someone to look at. The complete issues list can be found <a href="https://github.com/infosecB/LOOBins/issues" rel="external nofollow noopener" target="_blank">here</a>. I’m wrapping up a few other non-tech-related writing projects shortly, but this is a project I hope to be able to continue to contribute to in the future.</p>
+
+<p>I also realize it’s been about a month since my last post. So I’ll try to post a bit more frequently going forward but at least post once a month.</p>
+
+  </article><div id="giscus_thread" style="max-width: 800px; margin: 0 auto;">
+  <script>
+    let giscusTheme = localStorage.getItem("theme");
+    let giscusAttributes = {
+        "src": "https://giscus.app/client.js",
+        "data-repo": "markmorow/markmorow.github.io",
+        "data-repo-id": "R_kgDOJUFHGQ",
+        "data-category": "General",
+        "data-category-id": "DIC_kwDOJUFHGc4CVt7V",
+        "data-mapping": "title",
+        "data-strict": "1",
+        "data-reactions-enabled": "1",
+        "data-emit-metadata": "0",
+        "data-input-position": "bottom",
+        "data-theme": giscusTheme,
+        "data-lang": "en",
+        "crossorigin": "anonymous",
+        "async": "",
+    };
+
+
+    let giscusScript = document.createElement("script");
+    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+    document.getElementById("giscus_thread").appendChild(giscusScript);
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript" rel="external nofollow noopener" target="_blank">comments powered by giscus.</a>
+</noscript>
+</div>
 </div>
 
     </div>
