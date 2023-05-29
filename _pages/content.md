@@ -53,12 +53,13 @@ Microsoft Ignite: Azure Active Directory best practices from around the word [vi
 
 ##### 2022
 
-JAMF Blog Guest Post: Best practice when working with Azure AD [article](https://www.jamf.com/blog/azure-ad-conditional-access-jnuc2022/). 
+JAMF Blog Guest Post: Best practice when working with Azure AD [article](https://www.jamf.com/blog/azure-ad-conditional-access-jnuc2022/).
 
 ##### 2021
 
 ID Pro Vol1 Issue 6: Authentication and Authorization [article](https://bok.idpro.org/article/id/78/).
 
+Decreasing Attacker Dwell Time in Azure Active Directory SANS [white paper](https://www.sans.org/white-papers/40390/).
 
 ##### 2020
 

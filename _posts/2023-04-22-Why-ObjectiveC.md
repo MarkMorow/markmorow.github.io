@@ -15,7 +15,7 @@ I'm looking to learn it for a few reasons.
 
 1. Though Swift is the new and the right direction. There is still ALOT of stuff written in Objective-C, especially malware. To understand what it's doing, you need to know Objective-C.
 
-2. Trying to learn some of the deeper parts of the system requires you to use a lower-level language like C, C++, or Objective-C. I am writing small sample apps. Reversing them to see what it looks like in various tools like Ghidra, IDA Pro (which I do not have), or Hopper (which I also do not have but isn't too expensive). Making those mistakes that other vulnerable apps make in my sample apps will help me learn. At least, I think it will. 
+2. Trying to learn some of the deeper parts of the system requires you to use a lower-level language like C, C++, or Objective-C. I am writing small sample apps. Reversing them to see what it looks like in various tools like Ghidra, IDA Pro (which I do not have), or Hopper (which I also do not have but isn't too expensive). Making those mistakes that other vulnerable apps make in my sample apps will help me learn. At least, I think it will.
 
 I can also learn Swift later, it's not like it's going away, and you can only pick one. So I will just learn more about it later.
 
