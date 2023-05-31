@@ -17,6 +17,8 @@ Microsoft Security: Final steps to remove ADFS [video](https://www.youtube.com/w
 
 Defcon 30 BTV: Improving security posture of MacOS and Linux with Azure AD [video](https://www.youtube.com/watch?v=wjRgnCWI4GE).
 
+JAMF JNUC 2022 Top 5 Ways to Improve Your Apple End User Experience in M365/Azure AD [video](https://www.youtube.com/watch?v=qSJpE4ZnjUc&list=PLlxHm_Px-Ie2uIFiar6_3JejiOnObiujM&index=92)
+
 MacAdmins Campfire Session Week 7.2: Top 5 Ways to Improve Your Apple End User Experience in M365/Azure AD [video](https://www.youtube.com/watch?v=CwTTAVkDRbM).
 
 ##### 2021
@@ -33,7 +35,7 @@ BSides: Hiding in the cloud: How attackers can use applications fo sustained per
 
 ##### 2019
 
-Blackhat: Attacking and defending the Microsoft cloud (Office 365 & Azure AD [video](https://www.youtube.com/watch?v=SG2ibjuzRJM&list=PLH15HpR5qRsWrfkjwFSI256x1u2Zy49VI).
+Blackhat: Attacking and defending the Microsoft cloud (Office 365 & Azure AD) [video](https://www.youtube.com/watch?v=SG2ibjuzRJM&list=PLH15HpR5qRsWrfkjwFSI256x1u2Zy49VI).
 
 Microsoft Ignite: Shut the door to cybercrime with identity-driven security 2019 edition [video](https://www.youtube.com/watch?v=KqEcKNtpgV4).
 
