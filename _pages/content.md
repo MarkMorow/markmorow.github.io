@@ -31,7 +31,7 @@ SANS Blue Team Summmit: Modern Authentication for the Security admin [video](htt
 
 Authenticate: Sucess strategies for your strong authentication journey [video](https://www.youtube.com/watch?v=XH7z6XJeFws).
 
-BSides: Hiding in the cloud: How attackers can use applications fo sustained persistence and how to find it [video](https://www.youtube.com/watch?v=mxOHcqHxpi8).
+BSides: Hiding in the cloud: How attackers can use applications for sustained persistence and how to find it [video](https://www.youtube.com/watch?v=mxOHcqHxpi8).
 
 ##### 2019
 
