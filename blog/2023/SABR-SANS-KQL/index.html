@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>2023 | Mark  Morowczynski</title>
+    <title>SABR, SANS and KQL | Mark  Morowczynski</title>
     <meta name="author" content="Mark  Morowczynski">
-    <meta name="description" content="Mark Morowczynski's home page. Occasional blog posts, various presentations, and contact info.
-">
+    <meta name="description" content="What do baseball, security and Kusto have in common?">
     <meta name="keywords" content="Mark Morowczynski, security, security research, portfolio-website">
 
 
@@ -34,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://wwww.markmorow.com/blog/2023/">
+    <link rel="canonical" href="https://wwww.markmorow.com/blog/2023/SABR-SANS-KQL/">
     
     <!-- Dark Mode -->
     
@@ -108,49 +107,68 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-calendar fa-sm"></i> 2023 </h1>
-    <p class="post-description"> an archive of posts from this year </p>
+    <h1 class="post-title">SABR, SANS and KQL</h1>
+    <p class="post-meta">July 8, 2023</p>
+    <p class="post-tags">
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/tag/notes">
+          <i class="fas fa-hashtag fa-sm"></i> notes</a>  
+          <a href="/blog/tag/learning">
+          <i class="fas fa-hashtag fa-sm"></i> learning</a>  
+          
+
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Jul 8, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/SABR-SANS-KQL/">SABR, SANS and KQL</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">May 29, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/LOOBins/">Contributing to LOOBins</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Apr 23, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/Why-ObjectiveC/">Why I'm Learning Objective-C &amp; Other Learning Resources</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Apr 13, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/hello-world/">Hello World!</a>
-          </td>
-        </tr>
-      
-      </table>
-    </div>
-  </article>
+  <article class="post-content">
+    <p>I’m a bit behind schedule on blog posts. June was a hectic month, and when I finally looked up, it was over. So where did my time go if I wasn’t spent focusing on security research?</p>
 
+<p>As the homepage says, I enjoy watching baseball, hockey, and basketball outside of technology. That’s a bit simplistic, and besides playing fantasy baseball, I’m also a member of the Society For American Baseball Research, better known as <a href="https://sabr.org/" rel="external nofollow noopener" target="_blank">SABR</a>. You might have heard this when you watched that Moneyball movie, <a href="https://www.youtube.com/watch?v=3MjxoaynCmk" rel="external nofollow noopener" target="_blank">“Because he gets on base.”</a> SABR was around long before that and continues long after. Though there is a significant focus on baseball stats, one of the things they do is preserve the history of the game. There are many aspects of that, but where I spent my time was on their <a href="https://sabr.org/bioproject" rel="external nofollow noopener" target="_blank">biography project</a>.</p>
+
+<p>Late last year, my friend and fellow SABR member, <a href="https://www.ericconrad.com/" rel="external nofollow noopener" target="_blank">Eric Conrad</a>, decided we would try to write something for this project. Shortly after that, a call for volunteers went out for members to write biographies for an upcoming 2004 Boston Red Sox book. Eric is a Red Sox fan, so we raised our digital hands despite having no idea what we were doing. We were assigned Sandy and Anastacio Martinez, who is most likely NOT the Martinez you think of when you think of this Boston team. This whole writing process is a much longer story: asking people in Toronto to go to the local library, Eric buying a lot of old Sporting News off eBay, and me making an international cold call to Sandy on a Monday morning. We are really pleased with how these turned out, and we have some more SABR stuff coming that I’ll share in the future, but this took much more time than I thought it would.</p>
+
+<p><img src="/assets/img/Moneyball.jpg" alt="Moneyball"></p>
+
+<p>I also enrolled in the <a href="https://www.sans.edu/cyber-security-programs/graduate-certificate-cloud-security/" rel="external nofollow noopener" target="_blank">SANS Cloud Security Graduate Certificate Program</a>. Much of my day-to-day work focuses on Cloud Infrastructure Entitlement Management or CIEM. I have a decent knowledge of Azure but very little of AWS and GCP. I just wrapped up the first class in the program, <a href="https://www.sans.org/cyber-security-courses/cloud-security-essentials/" rel="external nofollow noopener" target="_blank">Cloud Security Essentials</a>. Much time has also been spent outside of work preparing for this entire space.</p>
+
+<p>This leads me to the final bit, Kusto Query Language, aka <a href="https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/" rel="external nofollow noopener" target="_blank">KQL</a>. For the last year, I’ve been bothering <a href="https://www.linkedin.com/in/matthewzorich/" rel="external nofollow noopener" target="_blank">Matthew Zorich</a> to write this book on KQL. My skills on KQL fall into the ‘could be better’ bucket, so I was excited to read this. A series of events have occurred, and now Matthew, <a href="https://www.linkedin.com/in/rodtrent/" rel="external nofollow noopener" target="_blank">Rod Trent</a>, and myself are signed up to write ‘The Definitive Guide to KQL: Using Kusto Query Language for Operations, Defending, and Threat Hunting.’ This will be out sometime in 2024. I’ll focus on the language’s fundamental aspects, but this will be an excellent forcing function for me to REALLY understand this language. Look for more updates on this later.</p>
+
+<p>Until next time.</p>
+
+  </article><div id="giscus_thread" style="max-width: 800px; margin: 0 auto;">
+  <script>
+    let giscusTheme = localStorage.getItem("theme");
+    let giscusAttributes = {
+        "src": "https://giscus.app/client.js",
+        "data-repo": "markmorow/markmorow.github.io",
+        "data-repo-id": "R_kgDOJUFHGQ",
+        "data-category": "General",
+        "data-category-id": "DIC_kwDOJUFHGc4CVt7V",
+        "data-mapping": "title",
+        "data-strict": "1",
+        "data-reactions-enabled": "1",
+        "data-emit-metadata": "0",
+        "data-input-position": "bottom",
+        "data-theme": giscusTheme,
+        "data-lang": "en",
+        "crossorigin": "anonymous",
+        "async": "",
+    };
+
+
+    let giscusScript = document.createElement("script");
+    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+    document.getElementById("giscus_thread").appendChild(giscusScript);
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript" rel="external nofollow noopener" target="_blank">comments powered by giscus.</a>
+</noscript>
+</div>
 </div>
 
     </div>
