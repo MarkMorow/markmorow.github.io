@@ -107,6 +107,8 @@ New Series: The Azure AD Mailbag [article](https://techcommunity.microsoft.com/t
 When I was a Premier Field Engineer, several of us wrote on the AskPFEPlat blog. This is the tag to the 59 [posts](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/bg-p/CoreInfrastructureandSecurityBlog/label-name/MarkMorow).
 # Books
 
+##### 2024
+The Definitive Guide to KQL: Using Kusto Query Language for Operations, Defending, and Threat Hunting
 ##### 2021
 
 Microsoft Press: Exam Ref SC-900 [purchase options](https://www.microsoftpressstore.com/store/exam-ref-sc-900-microsoft-security-compliance-and-identity-9780137568109).
