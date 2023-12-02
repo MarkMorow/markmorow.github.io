@@ -11,6 +11,10 @@ nav_order: 3
 
 ##### 2023
 
+SANS Cloud Security Summit: Real World Lessons Learned from 18 months of CIEM implementations in the Enterprise [video](https://youtu.be/q2pdf_8aorg?si=SX696DipdRpyauxX).
+
+JAMF JNUC 2023 Jamf and Microsoft Entra ID Conditional Access
+
 Microsoft Security: Final steps to remove ADFS [video](https://www.youtube.com/watch?v=D0M-N-RQw0I).
 
 ##### 2022
@@ -108,10 +112,12 @@ When I was a Premier Field Engineer, several of us wrote on the AskPFEPlat blog.
 # Books
 
 ##### 2024
-The Definitive Guide to KQL: Using Kusto Query Language for Operations, Defending, and Threat Hunting
+The Definitive Guide to KQL: Using Kusto Query Language for Operations, Defending, and Threat Hunting [purchase options](https://a.co/d/aHVgsMx).
+
+Microsoft Press: Exam Ref SC-900 (2nd Edition) [purchase options](https://a.co/d/4kyTpYg).
 ##### 2021
 
-Microsoft Press: Exam Ref SC-900 [purchase options](https://www.microsoftpressstore.com/store/exam-ref-sc-900-microsoft-security-compliance-and-identity-9780137568109).
+Microsoft Press: Exam Ref SC-900 (1st Edition) [purchase options](https://www.microsoftpressstore.com/store/exam-ref-sc-900-microsoft-security-compliance-and-identity-9780137568109).
 
 # Patents Awarded 
 
