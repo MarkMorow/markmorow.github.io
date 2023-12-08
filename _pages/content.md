@@ -13,7 +13,7 @@ nav_order: 3
 
 SANS Cloud Security Summit: Real World Lessons Learned from 18 months of CIEM implementations in the Enterprise [video](https://youtu.be/q2pdf_8aorg?si=SX696DipdRpyauxX).
 
-JAMF JNUC 2023 Jamf and Microsoft Entra ID Conditional Access
+JAMF JNUC 2023 Jamf and Microsoft Entra ID Conditional Access [video](https://youtu.be/D9-4miD-3pM?si=AU_pCsR-jwaQ8OZr).
 
 Microsoft Security: Final steps to remove ADFS [video](https://www.youtube.com/watch?v=D0M-N-RQw0I).
 
