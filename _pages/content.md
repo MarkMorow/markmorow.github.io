@@ -45,7 +45,7 @@ Blackhat: Attacking and defending the Microsoft cloud (Office 365 & Azure AD) [v
 
 Microsoft Ignite: Shut the door to cybercrime with identity-driven security 2019 edition [video](https://www.youtube.com/watch?v=KqEcKNtpgV4).
 
-Microsoft Ignite: Leverage the cloud to strengthen your on-premises Active Directory security [video](https://www.youtube.com/watch?v=KqEcKNtpgV4).
+Microsoft Ignite: Leverage the cloud to strengthen your on-premises Active Directory security [video](https://www.youtube.com/watch?v=0oS2bB_Xun0).
 
 ##### 2018
 
