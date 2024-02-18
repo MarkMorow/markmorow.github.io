@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>notes | Mark  Morowczynski</title>
+    <title>SANS SEC488 Cloud Security Essentials | Mark  Morowczynski</title>
     <meta name="author" content="Mark  Morowczynski">
-    <meta name="description" content="Mark Morowczynski's home page. Occasional blog posts, various presentations, and contact info.
-">
+    <meta name="description" content="GIAC GCLD Exam">
     <meta name="keywords" content="Mark Morowczynski, security, security research, portfolio-website">
 
 
@@ -34,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://wwww.markmorow.com/blog/tag/notes/">
+    <link rel="canonical" href="https://wwww.markmorow.com/blog/2024/SANS-SEC-488/">
     
     <!-- Dark Mode -->
     
@@ -108,56 +107,71 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-hashtag fa-sm"></i> notes </h1>
-    <p class="post-description"> an archive of posts with this tag </p>
+    <h1 class="post-title">SANS SEC488 Cloud Security Essentials</h1>
+    <p class="post-meta">February 18, 2024</p>
+    <p class="post-tags">
+      <a href="/blog/2024"> <i class="fas fa-calendar fa-sm"></i> 2024 </a>
+        ·  
+        <a href="/blog/tag/notes">
+          <i class="fas fa-hashtag fa-sm"></i> notes</a>  
+          <a href="/blog/tag/learning">
+          <i class="fas fa-hashtag fa-sm"></i> learning</a>  
+          
+
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Feb 18, 2024</th>
-          <td>
-              <a class="post-link" href="/blog/2024/SANS-SEC-488/">SANS SEC488 Cloud Security Essentials</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Jan 7, 2024</th>
-          <td>
-              <a class="post-link" href="/blog/2024/2024_Update/">2024 Update</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Jul 8, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/SABR-SANS-KQL/">SABR, SANS and KQL</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Apr 23, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/Why-ObjectiveC/">Why I'm Learning Objective-C &amp; Other Learning Resources</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Apr 13, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/hello-world/">Hello World!</a>
-          </td>
-        </tr>
-      
-      </table>
-    </div>
-  </article>
+  <article class="post-content">
+    <p>In the spring of 2023, I signed up for the SANS graduate certificate program for <a href="https://www.sans.edu/cyber-security-programs/graduate-certificate-cloud-security/" rel="external nofollow noopener" target="_blank">cloud security</a>. I’m no stranger to SANS courses, completing their master’s program from 2018 through 2022. Luckily, my employer has a tuition reimbursement program allows me to take these courses over multiple years to maximize the benefit. It was a lot of work, but I learned a lot in each SANS course. The community I’ve met throughout my time has also been fantastic. If you can afford it, I highly recommend SANS.</p>
 
+<p>Before enrolling in this course, explain why I signed up for four other courses. Living in the Microsoft identity world, I am familiar with Azure. I’ve taken several Azure exams and have a general idea of the correct direction. When it comes to Amazon Web Services (AWS) and Google Cloud Platform (GCP), I have never even touched it. I’m aware of some of the very basics, such as storage in AWS being called S3, GCP having virtual machines, etc. But I needed to familiarize myself with how you set this up and what the best practices are.</p>
+
+<p>I was also starting to spend more time at work with <a href="https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-permissions-management" rel="external nofollow noopener" target="_blank">Microsoft Entra Permissions Management (MEPM)</a>, a cloud infrastructure entitlement management (CIEM) product. This is integrated with AWS and GCP, as well as Azure. Going deeper on AWS and GCP would be a big help on many of the findings and remediation actions MEPM recommends, which requires some knowledge of these additional cloud providers. Finally, most customers I work with are in at least two of these clouds. There are further courses that I also had weak spots in that I needed to improve on, so I signed up for the program.</p>
+
+<p>The first course in their program is <a href="https://www.sans.org/cyber-security-courses/cloud-security-essentials/" rel="external nofollow noopener" target="_blank">Security 488: Cloud Security Essentials</a>. You can read the site for all the full details of what’s covered, but at a high level, you create your own AWS account and Azure subscription, along with the IAM accounts to go with it. You then spin up a small Linux VM in Azure and set up your lab environment for the week via Terraform. You don’t have to write terraform code, but it spins up this really nice lab environment. The labs showcase the different topics covered and give some nice things to go back to and ensure you are doing in your own environment.</p>
+
+<p><img src="/assets/img/CDCALab.png" alt="Lab">
+<em>The SEC 488 lab diagram that you use throughout the five day course.</em></p>
+
+<p>Then, throughout the five days, you’ll cover the fundamentals of each cloud provider as you build out the environment for a fictional rock band CD/CA. When teaching a topic, take networking, for example; it will start with the basics and use AWS as the first example. Then, it will move to Azure and call out where it’s different. Finally, the topic will move to GCP. This style tends to make the course content skew a bit heavier to AWS, then Azure, and finally, GCP is the smallest. This is aligned with what I see at most customers where AWS and Azure are the vast majority, and there is possibly some GCP for specific workloads. If you are a very large GCP shop, consider looking at something more specific to that elsewhere.</p>
+
+<p>For me, this course was a really great introduction to the other additional cloud providers. This is a 400-level fundamental course, so there wasn’t anything too tricky topic-wise. Many of the topics were covered in other security courses, but this had the cloud flavor of it. I’d recommend this course if you are getting started in this cloud space or are really heavy on one cloud provider and beginning to branch out. This would also be great as a second course if you have just taken SEC 401 Security Essentials and then wanted to get started with the cloud. If you’ve been maintaining two or three of these cloud providers for several years, have made a few mistakes along the way, and learned from them, you probably won’t find as much value as I did.</p>
+
+<p>The GIAC <a href="https://www.giac.org/certifications/cloud-security-essentials-gcld/" rel="external nofollow noopener" target="_blank">Cloud Security Essentials (GCLD)</a> exam is pretty straightforward, like most GIAC exams. I will give you a tip in making your index that I did. Put the topic area first and then add the cloud provider next if you need to. This prevents you from remembering whether you called something Amazon AWS or AWS or a feature like CloudTrail. This will help you locate the area quicker when taking the exam.</p>
+
+  </article><div id="giscus_thread" style="max-width: 800px; margin: 0 auto;">
+  <script>
+    let giscusTheme = localStorage.getItem("theme");
+    let giscusAttributes = {
+        "src": "https://giscus.app/client.js",
+        "data-repo": "markmorow/markmorow.github.io",
+        "data-repo-id": "R_kgDOJUFHGQ",
+        "data-category": "General",
+        "data-category-id": "DIC_kwDOJUFHGc4CVt7V",
+        "data-mapping": "title",
+        "data-strict": "1",
+        "data-reactions-enabled": "1",
+        "data-emit-metadata": "0",
+        "data-input-position": "bottom",
+        "data-theme": giscusTheme,
+        "data-lang": "en",
+        "crossorigin": "anonymous",
+        "async": "",
+    };
+
+
+    let giscusScript = document.createElement("script");
+    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+    document.getElementById("giscus_thread").appendChild(giscusScript);
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript" rel="external nofollow noopener" target="_blank">comments powered by giscus.</a>
+</noscript>
+</div>
 </div>
 
     </div>
