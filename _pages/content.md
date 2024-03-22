@@ -7,6 +7,16 @@ nav: true
 nav_order: 3
 ---
 
+# Books
+
+##### 2024
+The Definitive Guide to KQL: Using Kusto Query Language for Operations, Defending, and Threat Hunting [purchase options](https://www.microsoftpressstore.com/store/definitive-guide-to-kql-using-kusto-query-language-9780138293383).
+
+Microsoft Press: Exam Ref SC-900 (2nd Edition) [purchase options](https://www.microsoftpressstore.com/store/exam-ref-sc-900-microsoft-security-compliance-and-identity-9780138363734).
+##### 2021
+
+Microsoft Press: Exam Ref SC-900 (1st Edition) [purchase options](https://www.microsoftpressstore.com/store/exam-ref-sc-900-microsoft-security-compliance-and-identity-9780137568109).
+
 # Presentations
 
 ##### 2023
@@ -56,6 +66,28 @@ Microsoft Ignite: Hybrid identity and access management best practices [video](h
 ##### 2017
 
 Microsoft Ignite: Azure Active Directory best practices from around the word [video](https://www.youtube.com/watch?v=jLBzAW4r17A).
+
+# Podcasts
+
+##### 2023
+
+MS EMS Community Podocast Episode 03 "Identity and Security and Endpoints, Oh My!" [link](https://www.youtube.com/watch?v=HG94I9xvPJQ)
+
+##### 2022
+
+SANS Blueprint Episode 31 "Azure AD Threat Detection and Logging". [link](https://www.sans.org/podcasts/blueprint/corissa-koopmans-mark-morowczynski-azure-ad-threat-detection-and-logging-31/)
+
+##### 2021
+
+SANS Blueprint Episode 22 "Microsoft Incident Response Playbooks". [link](https://www.sans.org/podcasts/blueprint/microsoft-incident-response-playbooks-with-mark-morowczynski-thomas-detzner/)
+
+##### 2020
+
+SANS Blueprint Episode 07 "Passwordless- Can it be done?". [link](https://www.sans.org/podcasts/blueprint/passwordless-can-it-be-done-with-mark-morowczynski-libby-brown/)
+
+##### 20019
+
+The Cloud Architects Episode 26 "There is no choice that is do nothing and stay secure". [link](https://thearchitects.cloud/2019/05/10/episode-26-there-is-no-choice-that-is-do-nothing-and-stay-secure/)
 
 # Articles & Blogs
 
@@ -111,15 +143,6 @@ New Series: The Azure AD Mailbag [article](https://techcommunity.microsoft.com/t
 ##### 2011 to 2015
 
 When I was a Premier Field Engineer, several of us wrote on the AskPFEPlat blog. This is the tag to the 59 [posts](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/bg-p/CoreInfrastructureandSecurityBlog/label-name/MarkMorow).
-# Books
-
-##### 2024
-The Definitive Guide to KQL: Using Kusto Query Language for Operations, Defending, and Threat Hunting [purchase options](https://a.co/d/aHVgsMx).
-
-Microsoft Press: Exam Ref SC-900 (2nd Edition) [purchase options](https://a.co/d/4kyTpYg).
-##### 2021
-
-Microsoft Press: Exam Ref SC-900 (1st Edition) [purchase options](https://www.microsoftpressstore.com/store/exam-ref-sc-900-microsoft-security-compliance-and-identity-9780137568109).
 
 # Patents Awarded 
 
