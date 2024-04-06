@@ -69,6 +69,10 @@ Microsoft Ignite: Azure Active Directory best practices from around the word [vi
 
 # Podcasts
 
+##### 2024
+
+The Cloud Architects Episode 84 "Entra like Magenta". [link](https://thearchitects.cloud/2024/04/03/episode-84-entra-like-magenta/)
+
 ##### 2023
 
 MS EMS Community Podocast Episode 03 "Identity and Security and Endpoints, Oh My!" [link](https://www.youtube.com/watch?v=HG94I9xvPJQ)
