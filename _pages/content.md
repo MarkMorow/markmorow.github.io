@@ -19,6 +19,10 @@ Microsoft Press: Exam Ref SC-900 (1st Edition) [purchase options](https://www.mi
 
 # Presentations
 
+##### 2024
+
+MacAdmins Conference: Best Practices for Deploying Platform SSO with Microsoft Entra ID [video](https://youtu.be/NEoKLSuO3gw?si=moXmihRKrTYeTD-N)
+
 ##### 2023
 
 SANS Cloud Security Summit: Real World Lessons Learned from 18 months of CIEM implementations in the Enterprise [video](https://youtu.be/q2pdf_8aorg?si=SX696DipdRpyauxX).
@@ -149,6 +153,10 @@ New Series: The Azure AD Mailbag [article](https://techcommunity.microsoft.com/t
 When I was a Premier Field Engineer, several of us wrote on the AskPFEPlat blog. This is the tag to the 59 [posts](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/bg-p/CoreInfrastructureandSecurityBlog/label-name/MarkMorow).
 
 # Patents Awarded 
+
+##### 2024
+
+Sharing security settings between entities using verifiable credentials [link](https://patents.google.com/patent/US20240171406A1/en?q=(bailey+marie)&inventor=bercik&oq=bailey+marie+bercik).
 
 ##### 2022
 
