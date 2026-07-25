@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GitHub Fundamentals Certification
-date: 2024-12-21 05:00::00
+date: 2024-12-21 05:00:00
 description: Even GitHub Has Certs Now?
 tags: notes learning
 giscus_comments: true

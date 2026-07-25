@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GitHub Administration Certification
-date: 2024-12-22 05:00::00
+date: 2024-12-22 05:00:00
 description: Shouldn't you be finding bugs or something?
 tags: notes learning
 giscus_comments: true

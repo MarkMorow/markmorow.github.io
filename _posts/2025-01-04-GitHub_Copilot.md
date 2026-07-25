@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GitHub Copilot Certification
-date: 2025-01-04 05:00::00
+date: 2025-01-04 05:00:00
 description: Should I Try This AI Thing?
 tags: notes learning AI
 giscus_comments: true

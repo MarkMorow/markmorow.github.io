@@ -1,7 +1,7 @@
 ---
 layout: post
 title: iMessage Missing Photos
-date: 2024-12-16 05:00::00
+date: 2024-12-16 05:00:00
 description: Where did that meme go?
 tags: notes apple
 giscus_comments: true

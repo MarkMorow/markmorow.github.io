@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apple Business Manager Federation and SCIM with Entra ID
-date: 2024-12-14 05:00::00
+date: 2024-12-14 05:00:00
 description: Improving our ABM Lab!
 tags: notes learning apple
 giscus_comments: true

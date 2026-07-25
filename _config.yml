@@ -7,14 +7,14 @@ first_name: Mark
 middle_name: 
 last_name: Morowczynski
 contact_note: >
-  The best way to contact me is through email, Mastodon or Bl.
+  The best way to contact me is through email, Mastodon or Bluesky.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Mark Morowczynski, security, security research # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: prof_pic.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -98,9 +98,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: /assets/img/og-image.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -138,10 +138,10 @@ related_blog_posts:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
-  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
-  category: Comments # name of the category under which discussions will be created
-  category_id: # leave empty or specify your category_id (see https://giscus.app/)
+  repo: markmorow/markmorow.github.io
+  repo_id: R_kgDOTjPvMw # leave empty or specify your repo_id (see https://giscus.app/)
+  category: General # name of the category under which discussions will be created
+  category_id: DIC_kwDOTjPvM84DB8rD # leave empty or specify your category_id (see https://giscus.app/)
   mapping: title # identify discussions by post title
   strict: 1 # use strict identification mode
   reactions_enabled: 1 # enable (1) or disable (0) emoji reactions

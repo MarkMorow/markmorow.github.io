@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GitHub Actions Certification
-date: 2025-01-20 05:00::00
+date: 2025-01-20 05:00:00
 description: GitHub Certs 5 of 5
 tags: notes learning security
 giscus_comments: true

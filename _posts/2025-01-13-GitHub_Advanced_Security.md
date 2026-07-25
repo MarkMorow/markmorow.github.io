@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GitHub Advanced Security Certification
-date: 2025-01-13 05:00::00
+date: 2025-01-13 05:00:00
 description: At Least It's Security Related
 tags: notes learning security
 giscus_comments: true
