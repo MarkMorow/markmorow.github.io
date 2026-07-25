@@ -1,10 +1,61 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> SANS SEC540 Cloud Security and DevSecOps Automation | Mark Morowczynski </title> <meta name="author" content="Mark Morowczynski"> <meta name="description" content="GIAC GCSA Exam"> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> SANS SEC540 Cloud Security and DevSecOps Automation | Mark Morowczynski </title> <meta name="author" content="Mark Morowczynski"> <meta name="description" content="GIAC GCSA Exam"> <meta name="keywords" content="Mark Morowczynski, security, security research"> <meta property="og:site_name" content="Mark Morowczynski"> <meta property="og:type" content="article"> <meta property="og:title" content="Mark Morowczynski | SANS SEC540 Cloud Security and DevSecOps Automation"> <meta property="og:url" content="https://markmorow.com/blog/2024/SANS-SEC-540/"> <meta property="og:description" content="GIAC GCSA Exam"> <meta property="og:image" content="/assets/img/og-image.png"> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="SANS SEC540 Cloud Security and DevSecOps Automation"> <meta name="twitter:description" content="GIAC GCSA Exam"> <meta name="twitter:image" content="/assets/img/og-image.png"> <script type="application/ld+json">
+    {
+        "author":
+        {
+            "@type": "Person",
+            "name": "Mark Morowczynski"
+        },
+        "url": "https://markmorow.com/blog/2024/SANS-SEC-540/",
+        "@type": "BlogPosting",
+        "description": "GIAC GCSA Exam",
+        "headline": "SANS SEC540 Cloud Security and DevSecOps Automation",
+        
+        "sameAs": ["https://github.com/markmorow","https://infosec.exchange/@markmorow","https://bsky.app/profile/markmorow.com","https://www.linkedin.com/in/markmorow"],
+        
+        "name": "Mark Morowczynski",
+        "@context": "https://schema.org"
+    }
+  </script> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
   :root {
     --max-content-width: 930px;
   }
 </style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="/assets/img/prof_pic.jpg?v=9b33c21e071139193ce9064e5d2fe66d"> <link rel="stylesheet" href="/assets/css/main.css?v=f0b101217084a90093badfe99ff9a7d1"> <link rel="canonical" href="https://markmorow.com/blog/2024/SANS-SEC-540/"> <script src="/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
-  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Mark</span> Morowczynski </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item active"> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/content/">created content </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">repositories </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">SANS SEC540 Cloud Security and DevSecOps Automation</h1> <p class="post-meta"> Created on June 15, 2024 </p> <p class="post-tags"> <a href="/blog/2024"> <i class="fa-solid fa-calendar fa-sm"></i> 2024 </a>   ·   <a href="/blog/tag/notes"> <i class="fa-solid fa-hashtag fa-sm"></i> notes</a>   <a href="/blog/tag/learning"> <i class="fa-solid fa-hashtag fa-sm"></i> learning</a> </p> </header> <article class="post-content"> <div id="markdown-content"> <p>The fourth and final class I took in the SANS Cloud Security <a href="https://www.sans.edu/cyber-security-programs/graduate-certificate-cloud-security/" rel="external nofollow noopener" target="_blank">certificate program</a> was <a href="https://www.sans.org/cyber-security-courses/cloud-security-devsecops-automation/" rel="external nofollow noopener" target="_blank">SEC 540 Cloud Security and DevSecOps Automation</a>. The course just underwent a significant update near the beginning of the year. This was going to be, by far, the most challenging class for me in the cloud program. Though technically, I have a Computer Science degree, I’ve spent most of my time on the administration side. I am aware of things like DevOps and CI/CD pipelines, but actually leveraging them in a day-to-day matter is not something I’ve done. My skills in using git were questionable at best.</p> <p>This class was extremely useful for any developers who should be moving to these modern DevOps practices, as well as administrators who are moving to more cloud-based architectures. It really helped me see how many of the benefits of the DevOps mindset could be applied. You decide if you want to do the labs in AWS or Azure. The first day of the course focuses on general DevOps practices and pipelines. The last part of day 1 is focused on secrets management. I felt this day really helped me get hands on with these concepts and I actually made a few mistakes in the labs so I really got to understand the setup by troubleshooting different parts.</p> <p>Day 2 was focused on configuration management and infrastructure as code (IaC). There is also a good section on containers and Docker that I thought was especially helpful for me in understanding how this is leveraged. Day 3, I think, was the hardest day for me; it was almost entirely focused on Kubernetes. Again, I’m aware of this at a high level, but this day forces you to get into the weeds of it. It took me a bit, but now I have a solid understanding of it. Day 4 was microservices and serverless architectures. I was a bit more familiar with these from the previous classes. The final day 5 was how to bake compliance checks into all of this and some additional security protections you can do, like WAFs. This wasn’t too bad.</p> <p>Overall, the labs were great, and you really see the power of DevOps. My git is a bit better as well. The exam was very similar to the practice exams. I passed this a few weeks ago, and my program has come to an end. I did 4 SANS cloud classes in about 11 months. I would really recommend this program, but I’m very much looking forward to a break from the strict study schedule.</p> <p>If you are interested of applying to the SANS EDU program, feel free to reach out with any questions and I also have a referral code that removes the entrance fees. Happy to chat!</p> </div> </article> <div id="giscus_thread" style="max-width: 930px; margin: 0 auto;"> <br> <blockquote class="block-danger"> <h5>giscus comments misconfigured</h5> <p>Please follow instructions at <a href="http://giscus.app" rel="external nofollow noopener" target="_blank">http://giscus.app</a> and update your giscus configuration.</p> <p>Missing required keys: <code>repo_id, category_id</code>.</p> </blockquote> </div> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Mark Morowczynski. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. </div> </footer> <script>
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Mark</span> Morowczynski </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item active"> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/content/">created content </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">repositories </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">SANS SEC540 Cloud Security and DevSecOps Automation</h1> <p class="post-meta"> Created on June 15, 2024 </p> <p class="post-tags"> <a href="/blog/2024"> <i class="fa-solid fa-calendar fa-sm"></i> 2024 </a>   ·   <a href="/blog/tag/notes"> <i class="fa-solid fa-hashtag fa-sm"></i> notes</a>   <a href="/blog/tag/learning"> <i class="fa-solid fa-hashtag fa-sm"></i> learning</a> </p> </header> <article class="post-content"> <div id="markdown-content"> <p>The fourth and final class I took in the SANS Cloud Security <a href="https://www.sans.edu/cyber-security-programs/graduate-certificate-cloud-security/" rel="external nofollow noopener" target="_blank">certificate program</a> was <a href="https://www.sans.org/cyber-security-courses/cloud-security-devsecops-automation/" rel="external nofollow noopener" target="_blank">SEC 540 Cloud Security and DevSecOps Automation</a>. The course just underwent a significant update near the beginning of the year. This was going to be, by far, the most challenging class for me in the cloud program. Though technically, I have a Computer Science degree, I’ve spent most of my time on the administration side. I am aware of things like DevOps and CI/CD pipelines, but actually leveraging them in a day-to-day matter is not something I’ve done. My skills in using git were questionable at best.</p> <p>This class was extremely useful for any developers who should be moving to these modern DevOps practices, as well as administrators who are moving to more cloud-based architectures. It really helped me see how many of the benefits of the DevOps mindset could be applied. You decide if you want to do the labs in AWS or Azure. The first day of the course focuses on general DevOps practices and pipelines. The last part of day 1 is focused on secrets management. I felt this day really helped me get hands on with these concepts and I actually made a few mistakes in the labs so I really got to understand the setup by troubleshooting different parts.</p> <p>Day 2 was focused on configuration management and infrastructure as code (IaC). There is also a good section on containers and Docker that I thought was especially helpful for me in understanding how this is leveraged. Day 3, I think, was the hardest day for me; it was almost entirely focused on Kubernetes. Again, I’m aware of this at a high level, but this day forces you to get into the weeds of it. It took me a bit, but now I have a solid understanding of it. Day 4 was microservices and serverless architectures. I was a bit more familiar with these from the previous classes. The final day 5 was how to bake compliance checks into all of this and some additional security protections you can do, like WAFs. This wasn’t too bad.</p> <p>Overall, the labs were great, and you really see the power of DevOps. My git is a bit better as well. The exam was very similar to the practice exams. I passed this a few weeks ago, and my program has come to an end. I did 4 SANS cloud classes in about 11 months. I would really recommend this program, but I’m very much looking forward to a break from the strict study schedule.</p> <p>If you are interested of applying to the SANS EDU program, feel free to reach out with any questions and I also have a referral code that removes the entrance fees. Happy to chat!</p> </div> </article> <div id="giscus_thread" style="max-width: 930px; margin: 0 auto;"> <br> <script>
+    (function setupGiscus() {
+      function determineGiscusTheme() {
+        var theme = localStorage.getItem("theme") || document.documentElement.getAttribute("data-theme") || "system";
+if (theme === "dark") return "dark";
+if (theme === "light") return "light";
+var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+return prefersDark ? "dark" : "light";
+
+      }
+
+      var giscusTheme = determineGiscusTheme();
+      var attrs = {
+        src: "https://giscus.app/client.js",
+        "data-repo": "MarkMorow/markmorow.github.io",
+        "data-repo-id": "R_kgDOTjPvMw",
+        "data-category": "General",
+        "data-category-id": "DIC_kwDOTjPvM84DB8rD",
+        "data-mapping": "title",
+        "data-strict": "1",
+        "data-reactions-enabled": "1",
+        "data-emit-metadata": "0",
+        "data-input-position": "bottom",
+        "data-theme": giscusTheme,
+        "data-lang": "en",
+        crossorigin: "anonymous",
+        async: true
+      };
+
+      var giscusScript = document.createElement("script");
+      Object.entries(attrs).forEach(function(entry) { giscusScript.setAttribute(entry[0], entry[1]); });
+      var host = document.getElementById("giscus_thread");
+      if (host) host.appendChild(giscusScript);
+    })();
+  </script> <noscript> Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript" rel="external nofollow noopener" target="_blank">comments powered by giscus.</a> </noscript> </div> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Mark Morowczynski. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
@@ -464,13 +515,6 @@ ninja.data = [{
           window.open("https://github.com/markmorow", "_blank");
         },
       },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/markmorow", "_blank");
-        },
-      },{
         id: 'social-mastodon',
         title: 'Mastodon',
         section: 'Socials',
@@ -485,18 +529,18 @@ ninja.data = [{
           window.open("https://bsky.app/profile/markmorow.com", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/markmorow", "_blank");
+        },
+      },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
