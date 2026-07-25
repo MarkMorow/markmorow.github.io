@@ -8,7 +8,6 @@ giscus_comments: true
 related_posts: false
 ---
 
-
 Continuing from my previous [post](https://markmorow.com/blog/2024/Setting-Up-ABM/) about setting up AxM in a lab, I thought I would set up Federation and SCIM. To be **very clear**, at the top of this post. Everything I did was in my test environment, and I was completely okay with things breaking or going generally sideways and starting all over.
 
 **You should consult an expert in AxM for your area if you need assistance with this setup, and I'm not responsible if you cowboy your way through this and don't like what happens to your environment.**
@@ -47,7 +46,7 @@ I was very confused. I thought the only two accounts I had added to the applicat
 
 By clicking on the conflicting user accounts, I changed their suffix to match mydomain.appleid.com and re-ran the sync. Those two conflict users were no longer in conflict and were created in ABM. However, my other two test users still hadn't appeared. When I retraced the requirements, I saw I missed setting the required attributes of givenName and surname. Once I added those values to my two test users, they came over as expected.
 
-I still couldn't understand why those two admin accounts were syncing, as they were NOT added to the group. I created a third test user with all the correct information but did NOT assign them to the group for the ABM app. A short time later, while I started working on this post, they appeared in ABM. 
+I still couldn't understand why those two admin accounts were syncing, as they were NOT added to the group. I created a third test user with all the correct information but did NOT assign them to the group for the ABM app. A short time later, while I started working on this post, they appeared in ABM.
 
 ![Users](/assets/img/ABM_Fed_SCIM_7.png)
 

@@ -8,7 +8,6 @@ giscus_comments: true
 related_posts: false
 ---
 
-
 When I started this blog, I chose to host it as a GitHub Pages. It would have been much easier for me to pick WordPress or Substack, but GitHub Pages gives me an excuse to try and interact more with Git, GitHub, and Markdown. Since then, I took the [SANS 540 Cloud Security and DevSecOps Automation](https://www.sans.org/cyber-security-courses/cloud-security-devsecops-automation/) course, which really throws you into the deep end of that world. It was a great course and I wrote a little bit about it [previously](https://markmorow.com/blog/2024/SANS-SEC-540/).
 
 At the start of 2024, GitHub actually released [four certifications](https://resources.github.com/learn/certifications/) of its own: Foundations, Actions, Advanced Security, and Administration. Later, they added a certification for GitHub Copilot. They also lowered the cost of the [Foundations exam](https://education.github.com/experiences/foundations_certificate) and made it so you had to use their secure testing software but did not have to schedule it with a proctor.

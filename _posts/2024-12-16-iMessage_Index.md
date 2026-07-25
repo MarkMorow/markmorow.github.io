@@ -8,7 +8,6 @@ giscus_comments: true
 related_posts: false
 ---
 
-
 I've run into this twice myself, so this post reminds me how to fix it if this happens again. If you are like me, you might have some text chains that go back a looooooong time. Throughout those chains, various images and memes have been shared. You can see any of these images that have been shared by clicking on the person or group chat name, then down below, you'll see "Photos." Typically, you'll see all the photos that have been shared.
 
 When I got a new iPhone and did the device transfer, a few days later, when I went to look for an old picture, it and many others were not there. If I scrolled back in the chat, I could see the image, but it wasn't displayed under the "Photos" section. I also had a similar issue when I upgraded from iOS 17 to iOS 18. Photos that were previously there would no longer be.

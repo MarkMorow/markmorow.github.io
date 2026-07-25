@@ -8,7 +8,6 @@ giscus_comments: true
 related_posts: false
 ---
 
-
 As I mentioned in my last [post](https://markmorow.com/blog/2024/GitHub_Fundamentals/), I completed the learning path for the GitHub Fundamentals exam and was planning on taking that exam. When I clicked through the other available learning paths, I saw that I was a little more than halfway done with the GitHub Administration learning path, with about 2 hours worth of content. I was the least interested in this course of the five, but I thought I would press my luck and push through to finish this content and determine if I could pass the exam.
 
 The content was similar to some of the topics covered in the [SANS 540 course](https://www.sans.org/cyber-security-courses/cloud-security-devsecops-automation/). However, it was also more heavily geared towards Identity and Access Management topics like managing accounts and SAML/SCIM, which I'm deeply familiar with.
