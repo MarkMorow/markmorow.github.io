@@ -179,6 +179,12 @@ Cloud-based privileged access management [link](https://patents.google.com/paten
 
 # Society For American Baseball Research (SABR)
 
+##### 2026
+
+[September 27, 2024: White Sox set new post-1900 season loss record of 121, as Tigers clinch playoff berth](https://sabr.org/gamesproj/game/september-27-2024-white-sox-set-new-post-1900-season-loss-record-of-121-as-tigers-clinch-playoff-berth/) co-written with Eric Conrad.
+
+[Paul Logan, Cape Cod League](https://sabr.org/journal/article/cape-cod-league-paul-logan-cotuit-kettleers-board-member-and-league-treasurer/) co-written with Eric Conrad.
+
 ##### 2025
 
 [April 21, 2012: Philip Humber is perfect for White Sox in only complete game of major league career](https://sabr.org/gamesproj/game/april-21-2012-philip-humber-is-perfect-for-white-sox-in-only-complete-game-of-major-league-career/) co-written with Eric Conrad.
